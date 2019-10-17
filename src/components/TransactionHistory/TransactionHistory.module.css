@@ -1,0 +1,24 @@
+th {
+  text-align: center;
+  border: 1px solid #dde1e2;
+}
+
+tr {
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background: #ecf1f4;
+}
+
+td {
+  border: 1px solid #dde1e2;
+}
+
+.transactionHistory {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #dde1e2;
+  margin-top: 20px;
+}

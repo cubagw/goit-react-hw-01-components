@@ -1,0 +1,35 @@
+@value primary-font-stack from "../variables.module.css";
+@value primary-font-size from "../variables.module.css";
+.name {
+  font-family: primary-font-stack;
+  font-size: primary-font-size;
+  margin: 5px;
+}
+
+.userIsActiv {
+  background-color: rgb(42, 202, 42);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.userIsNotActiv {
+  composes: userIsActiv;
+  background-color: rgb(216, 49, 27);
+}
+.friendList {
+  padding: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.75);
+}
